@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: black;
+padding-top: 5rem;
+}
+
+.testo, .psw{
+    text-align: center;
+    color: lightgreen;
+    padding-bottom: 3rem;
+}
+
+.psw{
+    animation: rotate 5s ;
+    text-decoration: underline;
+}
+
+@keyframes rotate {
+    0% {
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(2);
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
